@@ -1,0 +1,36 @@
+{
+  "devDependencies": {
+    "@webpack-cli/init": "^1.1.3",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.2.0",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^7.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.2.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.8",
+    "postcss-loader": "^5.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "private": true,
+  "name": "my-webpack-project",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "serve": "webpack serve --mode=development"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

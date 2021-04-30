@@ -1,0 +1,13 @@
+@import "~normalize.css";
+@import "fonts.css";
+@import "print.css";
+$body-color: #000000;
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $body-color;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+
+  background-color: #FF7373;
+}
+
